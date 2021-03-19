@@ -34,3 +34,16 @@ Make scripts executable
 ```
 chmod -R +x scripts
 ```
+
+### Tools
+
+In this monorepo we use some a opinion for handle the commit messages
+
+[Commitlint](https://github.com/conventional-changelog/commitlint/#what-is-commitlint)
+[Commitlint for lerna](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-lerna-scopes)
+Here are more info how you can write well commits message
+
+[Changelog](https://github.com/lerna/lerna-changelog)
+
+To be able to have a record of the changes performed by our team during the development process
+we add a changelog versioning

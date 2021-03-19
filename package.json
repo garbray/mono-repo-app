@@ -1,12 +1,12 @@
 {
   "name": "mono-repo",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "index.js",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
-  "repository": "",
+  "repository": "git@github.com:garbray/mono-repo-app.git",
   "author": "Bryan Garzon <bryangarzonb@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -16,7 +16,8 @@
     "lint": "scripty",
     "clean": "scripty",
     "versioning": "lerna version",
-    "conventional": "lerna version --conventional-commits"
+    "conventional": "lerna version --conventional-commits",
+    "changelog": "yarn lerna-changelog"
   },
   "volta": {
     "node": "14.16.0",
