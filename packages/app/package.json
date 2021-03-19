@@ -1,6 +1,6 @@
 {
   "name": "@garbray/app",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Global type definitions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -26,5 +26,9 @@
   },
   "scripty": {
     "path": "../../scripts/packages"
+  },
+  "dependencies": {
+    "webpack": "^5.26.3",
+    "webpack-dev-server": "^3.11.2"
   }
 }
