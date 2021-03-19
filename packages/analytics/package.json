@@ -1,6 +1,6 @@
 {
   "name": "@garbray/analytics",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "Analytics SDK",
   "main": "dist/analytics.js",
   "types": "dist/index.d.ts",
