@@ -1,0 +1,9 @@
+{
+    "files": [],
+    "references": [
+        {"path": "analytics"},
+        {"path": "types"},
+        {"path": "app"},
+        {"path": "utils"}
+    ]
+}
