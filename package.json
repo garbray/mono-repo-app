@@ -15,8 +15,7 @@
     "test": "scripty",
     "lint": "scripty",
     "clean": "scripty",
-    "versioning": "lerna version",
-    "conventional": "lerna version --conventional-commits",
+    "versioning": "lerna version --conventional-commits",
     "changelog": "yarn lerna-changelog"
   },
   "volta": {
