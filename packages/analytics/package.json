@@ -1,9 +1,10 @@
 {
-  "name": "@paven/analytics",
+  "name": "@garbray/analytics",
   "version": "0.0.1",
   "description": "Analytics SDK",
   "main": "dist/analytics.js",
   "types": "dist/index.d.ts",
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },

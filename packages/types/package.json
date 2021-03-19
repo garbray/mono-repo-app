@@ -1,9 +1,10 @@
 {
-  "name": "@paven/types",
+  "name": "@garbray/types",
   "version": "0.0.1",
   "description": "Global type definitions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
