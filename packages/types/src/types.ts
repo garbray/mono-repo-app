@@ -1,9 +1,15 @@
 /**
+ * @private
+ */
+interface IId {
+  id: string;
+}
+
+/**
  * A User
  * @public
  */
-export interface IUser {
-  id: string;
+export interface IUser extends IId {
   name: string;
   currency: string;
 }
@@ -12,8 +18,7 @@ export interface IUser {
  * A Benefit
  * @public
  */
-export interface IBenefit {
-  id: string;
+export interface IBenefit extends IId {
   name: string;
   description: string;
 }
@@ -22,7 +27,6 @@ export interface IBenefit {
  * A Notifications
  * @public
  */
-export interface INotifications {
-  id: string;
+export interface INotifications extends IId {
   userId: string;
 }
