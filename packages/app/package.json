@@ -20,18 +20,6 @@
     "@babel/preset-env": "^7.13.10",
     "@babel/preset-react": "^7.12.13",
     "@babel/preset-typescript": "^7.13.0",
-<<<<<<< HEAD
-    "@testing-library/react": "^11.2.5",
-    "@types/jest": "^26.0.20",
-    "@types/react": "^17.0.3",
-    "@types/react-dom": "^17.0.2",
-    "html-webpack-plugin": "^5.3.1",
-    "jest": "^26.6.3",
-    "ts-loader": "^8.0.18",
-    "typescript": "^4.2.3",
-    "webpack": "^5.26.3",
-    "webpack-dev-server": "^3.11.2"
-=======
     "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
     "@testing-library/react": "^11.2.5",
     "@types/jest": "^26.0.20",
@@ -54,7 +42,6 @@
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^5.7.3"
->>>>>>> cc05443 (feat(app): base build configuration with webpack)
   },
   "scripty": {
     "path": "../../scripts/packages"
