@@ -1,6 +1,6 @@
 {
   "name": "mono-repo",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "main": "index.js",
   "private": true,
   "workspaces": [
@@ -15,8 +15,7 @@
     "test": "scripty",
     "lint": "scripty",
     "clean": "scripty",
-    "versioning": "lerna version",
-    "conventional": "lerna version --conventional-commits",
+    "versioning": "lerna version --conventional-commits",
     "changelog": "yarn lerna-changelog"
   },
   "volta": {

@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "module": "CommonJS",
-    "types": ["jest"],
+    "types": ["jest", "node"],
     "sourceMap": true,
     "target": "ES2018",
     "strict": true,
