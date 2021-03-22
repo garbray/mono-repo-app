@@ -2,6 +2,11 @@
   "extends": "../../.eslintrc",
   "parserOptions": {
     "project": "tsconfig.json"
+  },
+  "settings": {
+      "react": {
+          "version": "detect"
+      }
   }
 }
 
