@@ -26,5 +26,8 @@
   },
   "scripty": {
     "path": "../../scripts/packages"
+  },
+  "dependencies": {
+    "@garbray/prettier-config": "^1.0.0"
   }
 }
