@@ -1,6 +1,6 @@
 {
   "name": "@garbray/utils",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Global type definitions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -28,6 +28,6 @@
     "path": "../../scripts/packages"
   },
   "dependencies": {
-    "@garbray/prettier-config": "^1.0.0"
+    "@garbray/prettier-config": "^1.0.1"
   }
 }
