@@ -1,11 +1,22 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "npmClient": "yarn",
   "useWorkspaces": true,
   "version": "independent",
-  "nohoist": [
-    "*"
+  "nohoist": ["*"],
+  "command": {
+    "publish": {
+      "allowBranch": ["master"],
+      "conventionalCommits": true,
+      "message": "chore(release): :tada: :rocket: [skip ci]"
+    }
+  },
+  "ignoreChanges": [
+    "**/CHANGELOG.md",
+    "**/package-lock.json",
+    "**/test/**",
+    "lerna.json",
+    "package.json",
+    "README.md"
   ]
 }

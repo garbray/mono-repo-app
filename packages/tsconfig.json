@@ -4,6 +4,7 @@
         {"path": "analytics"},
         {"path": "types"},
         {"path": "app"},
-        {"path": "utils"}
+        {"path": "utils"},
+        {"path": "components-library"}
     ]
 }

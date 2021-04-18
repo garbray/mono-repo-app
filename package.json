@@ -16,7 +16,10 @@
     "lint": "scripty",
     "clean": "scripty",
     "versioning": "lerna version --conventional-commits",
-    "changelog": "yarn lerna-changelog"
+    "changelog": "yarn lerna-changelog",
+    "buildTypes": "scripty",
+    "dev": "scripty",
+    "versionGen": "scripty"
   },
   "volta": {
     "node": "14.16.0",

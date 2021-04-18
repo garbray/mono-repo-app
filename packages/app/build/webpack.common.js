@@ -2,6 +2,7 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
 const ResourceHintWebpackPlugin = require("resource-hints-webpack-plugin");
+const Dotenv = require("dotenv-webpack");
 
 /** @type {import('webpack').Configuration} */
 module.exports = {
@@ -17,7 +18,12 @@ module.exports = {
       {
         test: /\.tsx?$/,
         use: ["ts-loader"],
-        exclude: "/node_modules/",
+        exclude: [
+          "/src/**/*.spec.ts",
+          "/src/**/*.spec.tsx",
+          "/node_modules/",
+          "/__tests__/",
+        ],
       },
       // {
       //   use: ["style-loader", "css-loader", "sass-loader"],
@@ -38,5 +44,6 @@ module.exports = {
       template: path.join(__dirname, "../public", "index.html"),
     }),
     new ResourceHintWebpackPlugin(),
+    new Dotenv(),
   ],
 };

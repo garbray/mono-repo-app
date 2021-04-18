@@ -1,5 +1,5 @@
-import { RouteComponentProps } from "@reach/router";
 import React, { useState } from "react";
+import { RouteComponentProps } from "@reach/router";
 
 type IProfile = RouteComponentProps;
 
