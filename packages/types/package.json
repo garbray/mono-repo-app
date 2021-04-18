@@ -1,10 +1,9 @@
 {
   "name": "@garbray/types",
-  "version": "0.1.2",
+  "version": "0.0.4",
   "description": "Global type definitions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
@@ -12,10 +11,8 @@
     "test": "scripty",
     "lint": "scripty",
     "build": "scripty",
+    "tdd": "scripty",
     "clean": "rimraf dist *.tsbuildinfo"
-  },
-  "bugs": {
-    "url": "https://github.com/Round-Feather/paven-web/issues"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.13.10",
@@ -28,6 +25,16 @@
     "path": "../../scripts/packages"
   },
   "dependencies": {
-    "@garbray/prettier-config": "^1.0.1"
+    "@garbray/prettier-config": "^0.0.2"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/src"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!src/**/*.d.ts"
+    ],
+    "resetMocks": true
   }
 }

@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 echo "┏━━━ 🎯 TEST: $(pwd) ━━━━━━━━━━━━━━━━━━━"
-yarn lerna run test --stream
+yarn lerna run test --ignore @garbray/prettier-config --stream
+

@@ -1,20 +1,26 @@
-import { Action, Dispatch } from "redux";
-import { IApiAction } from "../../types";
-import { API_REQUEST } from "../actions/api";
+// import actions from "consts/actions-types";
+// import { endNetwork, startNetwork } from "actions/ui";
 
-type INext = (action: IApiAction) => void;
+// const api = ({ dispatch, getState }) => (next: Dispatch) => (action: Action) => {
+//   if (action.type !== actions.API) {
+//     return next(action);
+//   }
 
-export const api = ({ dispatch }: { dispatch: Dispatch }) => (
-  next: (action: Action) => void
-) => (action: IApiAction): INext => {
-  if (action.type === API_REQUEST) {
-    const { method, url, onSuccess, onError } = action.meta;
+//   const { url, success, label } = action.payload;
 
-    fetch(url, { method })
-      .then((response) => response.json())
-      .then((data) => dispatch({ type: onSuccess, payload: data }))
-      .catch((error) => dispatch({ type: onError, payload: error }));
-  }
+//   dispatch(startNetwork(label));
 
-  return next(action);
-};
+//   fetch(url)
+//     .then((response) => response.json())
+//     .then((data) => {
+//       dispatch(success(data));
+//       dispatch(endNetwork(label));
+//     })
+//     .catch((error) => {
+//       if (error.status === 403) {
+//         // here actions
+//         // dispatch(logout());
+//         // dispatch(redirect('/login'))
+//       }
+//     });
+// };

@@ -1,6 +1,6 @@
 {
   "name": "@garbray/prettier-config",
-  "version": "1.0.1",
+  "version": "0.0.2",
   "description": "Prettier base config",
   "keywords": [
     "prettier",
@@ -8,8 +8,7 @@
     "config",
     "file"
   ],
-  "author": "Bryan Garzon <bryangarzonb@gmail.com>",
-  "homepage": "https://github.com/garbray/mono-repo-app#readme",
+  "author": "Bryan Garzon <bryan.garzon@globant.com>",
   "license": "ISC",
   "main": "index.js",
   "publishConfig": {
