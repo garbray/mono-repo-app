@@ -1,6 +1,6 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-yarn run test
-yarn run lint
 yarn run commitlint --edit "$1"
+yarn run lint
+yarn run test
